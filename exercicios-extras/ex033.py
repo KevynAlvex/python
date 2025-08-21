@@ -6,4 +6,7 @@ print('-'*25)
 meses = anos * 12
 prestacao = valor_casa / meses
 
-if prestacao > (salario*0.3)
+if prestacao > (salario*0.3):
+    print('O banco não poderá fornecer o empréstimo')
+else:
+    print('Aproveite o seu empréstimo!!')
